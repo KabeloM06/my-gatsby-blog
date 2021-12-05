@@ -53,10 +53,14 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #000;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  color: rgb(37, 37, 37);
+  
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -489,6 +493,7 @@ th {
   font-weight: bold;
 }
 li {
+  color: #000;
   margin-bottom: calc(1.45rem / 2);
 }
 ol li {
